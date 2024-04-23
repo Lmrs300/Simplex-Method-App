@@ -49,6 +49,7 @@ function SimplexForm1() {
     <>
     {
         pageForm==1 ?
+        <>
         <form action="#" style={{width:"fit-content"}} onSubmit={handlePrincipalForm}>
             <label htmlFor="varDec">
                 <span>Cantidad de variables de decisión:</span>
@@ -60,6 +61,9 @@ function SimplexForm1() {
             </label>
             <button type='submit' className="btn_sig">Siguiente</button>
         </form>
+
+        <div style={{textAlign:"center"}}><h1>Creado por Luis Romero</h1><h1>C.I: 29.850.292</h1></div>
+        </>
         :
         ""
     }
