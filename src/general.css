@@ -16,6 +16,7 @@ input[type="number"] {
 
 form {
   max-width: 90%;
+  min-width: fit-content;
   width: fit-content;
   margin: auto;
   margin-top: 40px;
