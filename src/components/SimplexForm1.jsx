@@ -62,7 +62,7 @@ function SimplexForm1() {
             <button type='submit' className="btn_sig">Siguiente</button>
         </form>
 
-        <div style={{textAlign:"center"}}><h1>Creado por Luis Romero</h1><h1>C.I: 29.850.292</h1></div>
+        <div style={{textAlign:"center", userSelect:"none"}}><h1>Creado por Luis Romero</h1><h1>C.I: 29.850.292</h1></div>
         </>
         :
         ""
